@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{users}}" wx:key="user_id">    
+    <view>
+      <text class="log-item">{{item.user_id}} </text>
+      <text class="log-item">{{item.cert_manager ? "已认证" : "未认证"}}</text>
+    </view>
+  </block>
+</view>

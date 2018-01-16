@@ -1,0 +1,24 @@
+/** wxss **/
+/** 修改默认的navigator点击态 **/
+.navigator-bg {    
+    position: fixed;
+    z-index: 1;
+    height: 82rpx;
+    background-color: #DBDBDB;    
+}
+
+.swiper-symbol {
+  border: 1px solid red;
+  position:absolute;
+  top:82rpx;
+  height:100%;
+  width: 100%;
+}
+
+.swiper-symbol swiper {
+  height: 100%;
+}
+
+.swiper-symbol swiper-item {
+  height: 200rpx;
+}

@@ -1,0 +1,12 @@
+<!--components/symbol/symbol.wxml-->
+<view class="container">
+    <view class="table">       
+        <view class="tr" wx:for="{{10}}" wx:key="id">
+            <view class="td" bindtap='openCard' >内容</view>
+            <view class="td" bindtap='openCard' >内容</view>
+            <view class="td" bindtap='openCard' >内容</view>
+            <view class="td" bindtap='openCard' >内容</view>
+            <view class="td" bindtap='openCard' >内容</view>
+        </view>
+    </view>
+</view>
