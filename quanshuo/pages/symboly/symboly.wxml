@@ -1,8 +1,7 @@
 <!--pages/symboly/symboly.wxml-->
 <view class="container">
   <view class="card_wrap">
-    <view 
-      bindtouchend="onTouchend"       
+    <view    
       class="card_item card{{ id > 1 ? 3 : id+1}} " 
       wx:for="{{ cardInfoList }}"  
       wx:key="unique" 
@@ -27,7 +26,15 @@
     </view>
   </view>
 
-  <view>
-    sdfasdfasdf
+  <view class='card_opt'>
+    <view>
+      <button size="mini" bindtap='onLast'>上一个</button>
+    </view>
+    <view class='card_opt_num'>
+      <text>12/43</text>
+    </view>
+    <view>
+      <button size="mini" bindtap='onNext'>下一个</button>
+    </view>
   </view>
 </view>

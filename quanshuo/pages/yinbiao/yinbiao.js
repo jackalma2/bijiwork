@@ -9,7 +9,8 @@ Page({
     circular: false,
     interval: 500,
     duration: 200,
-    current: 0
+    //当前tab item  
+    currentTab: 0, 
   },
 
   /**
@@ -68,13 +69,6 @@ Page({
     
   },
 
-  //改变头部音标
-  changeSymbol: function(e) {
-    this.setData({
-      current: e.currentTarget.id
-    })
-  },
-
   //点击每一个音标的时候
   //当自定义组件触发“myevent”事件时，调用“onMyEvent”方法
   onMyEvent: function(e) {
@@ -83,6 +77,26 @@ Page({
     wx.navigateTo({
       url: '/pages/symboly/symboly',
     })
+  },
+
+  //滑动切换tab   
+  swiperChange: function (e) {
+    var that = this;
+    that.setData({ 
+      currentTab: e.detail.current 
+    })
+  },
+
+  //切换顶部tab item
+  onTab: function (e) {
+    var that = this;
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current
+      })
+    }
   }
 
 })

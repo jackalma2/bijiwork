@@ -1,16 +1,35 @@
 /** wxss **/
 /** 修改默认的navigator点击态 **/
-.navigator-bg {    
-    position: fixed;
-    z-index: 1;
-    height: 82rpx;
-    background-color: #DBDBDB;    
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* 导航*/
+.swiper-tab{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 80rpx;
+    background-color: #F2F2F2;
+}  
+.swiper-tab-item{  
+    font-size: 30rpx;  
+    display: inline-block;   
+    color: #777777;  
+}  
+/*选中的tab item*/
+.on{ 
+  color: #4E4E4E;  
+  border-bottom: 5rpx solid #4E4E4E;
+} 
+
 .swiper-symbol {
-  border: 1px solid red;
   position:absolute;
-  top:82rpx;
+  top:85rpx;
   height:100%;
   width: 100%;
 }
@@ -20,5 +39,6 @@
 }
 
 .swiper-symbol swiper-item {
-  height: 200rpx;
+  color: #fff;
+  background-color: #575E66;  
 }

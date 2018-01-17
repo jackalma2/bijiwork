@@ -35,8 +35,21 @@ Page({
     }] 
   },
 
-  //事件处理函数
-  onTouchend: function (e) {
+  //上一个
+  onLast: function(e) {
+    var that = this;
+    setTimeout(function () {
+      var cardInfoList = that.data.cardInfoList;
+      var slidethis = that.data.cardInfoList.pop();
+      that.data.cardInfoList.unshift(slidethis);
+      that.setData({
+        cardInfoList: that.data.cardInfoList,
+      });
+    }, 100);
+  },
+
+  //下一个
+  onNext: function(e) {
     var that = this;
     setTimeout(function () {
       var cardInfoList = that.data.cardInfoList;
@@ -46,8 +59,7 @@ Page({
         cardInfoList: that.data.cardInfoList,
       });
     }, 100);
-  }, 
-
+  },
   /** 
    * 用户点击右上角分享 
    */
