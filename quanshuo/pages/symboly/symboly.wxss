@@ -57,13 +57,6 @@
   border-color: #fff;
 }
 
-.card_wrap .card_item .buy_btn {
-  position: absolute;
-  bottom: 43px;
-  left: 50%;
-  margin-left: -65px;
-}
-
 .card_wrap .card_item span.change_icon image {
   position: absolute;
   width: 35px;

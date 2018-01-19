@@ -71,9 +71,7 @@ Page({
 
   //点击每一个音标的时候
   //当自定义组件触发“myevent”事件时，调用“onMyEvent”方法
-  onMyEvent: function(e) {
-    console.log(1)
-    console.log(e.detail) 
+  onMyEvent: function(e) { 
     wx.navigateTo({
       url: '/pages/symboly/symboly',
     })
@@ -82,7 +80,7 @@ Page({
   //滑动切换tab   
   swiperChange: function (e) {
     var that = this;
-    that.setData({ 
+    that.setData({
       currentTab: e.detail.current 
     })
   },

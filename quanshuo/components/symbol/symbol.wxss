@@ -20,7 +20,7 @@
 }
 
 /*切换按钮*/
-.switchView {
+.sliderView {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,34 +29,50 @@
   box-sizing: border-box;
   line-height: 70rpx;
   border-radius: 60rpx;
-  background-color: #fff;
   color: #289adc;
 }
 
-.switchView input {
+.sliderContent{
   display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  width: 430rpx;
+  box-sizing: border-box;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 60rpx;
+  background-color: #fff;
+  color: #289adc;
+}
+ 
+.sliderContent input {
   line-height: 70rpx;
   height: 70rpx;
   box-sizing: border-box;
-  width: 250rpx;
+  width: 215rpx;
 }
-
+ 
 .input-placeholder {
   text-align: center;
   color: #289adc;
 }
-
-
-.switchBtn {
-  display: flex;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  width: 250rpx;
+ 
+.slider {
+  width: 215rpx;
   border-radius: 60rpx;
   text-align: center;
   background-color: #7f7f7f;
-  color: #fff;    
+  color: #fff;
 }
 
-/*http://www.jb51.net/article/124701.htm*/
+.slider_2 {
+  width: 215rpx;
+  border-radius: 60rpx;
+  text-align: center;
+}
+
+.input-placeholder{
+  color:#7f7f7f;
+}

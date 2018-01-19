@@ -21,7 +21,6 @@
           {{ cradMes }}
         </span>
       </view>
-      <view class="btn-cta buy_btn" id="{{ id }}" >订购烂漫计划</view>
       <image src="{{ item.cardUrl }}"></image>
     </view>
   </view>

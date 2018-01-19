@@ -1,0 +1,14 @@
+/* pages/testcard/testcard.wxss */
+.scroll-view_H {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.scroll-item {
+  display:inline-block;
+  background-color:yellow; 
+  height:1000rpx;
+  width:600rpx;
+  margin:20rpx; 
+  border-radius: 60rpx;
+}

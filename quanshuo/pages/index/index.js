@@ -23,6 +23,13 @@ Page({
     })
   },
 
+  //测试卡片
+  bindTestCard: function () {    
+    wx.navigateTo({
+      url: '../testcard/testcard',
+    })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

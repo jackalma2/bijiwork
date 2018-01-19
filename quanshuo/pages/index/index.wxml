@@ -10,6 +10,7 @@
   <view class="usermotto">
     <button bindtap='bindUsersList'>查看用户列表</button>
     <button bindtap='bindYinbiao'>五十音图</button>
+    <button bindtap='bindTestCard'>测试卡片</button>
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>

@@ -1,0 +1,16 @@
+<!--pages/testcard/testcard.wxml-->
+<scroll-view 
+  class="scroll-view_H" 
+  scroll-x  
+  scroll-with-animation
+  bindscroll="onScroll"
+  bindscrolltoupper="onLeft"
+  bindscrolltolower="onRight"
+  scroll-left="{{scrollLeft}}"
+>
+  <block wx:for="{{list}}" wx:key="{{id}}">
+    <view id="green" class='scroll-item'>
+      <text style='margin:250rpx;'>{{item.title}}</text>
+    </view>
+  </block>
+</scroll-view>

@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/users/users",
     "pages/yinbiao/yinbiao",
-    "pages/symboly/symboly"
+    "pages/symboly/symboly",
+    "pages/testcard/testcard"
   ],
   "window": {
     "backgroundTextStyle": "white",
