@@ -1,11 +1,12 @@
 <view class='container'>
   <view class='swiper-tab'>
-    <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="onTab">清音</view>  
-    <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="onTab">浊音</view>  
+    <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="onTab">基本音</view>  
+    <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="onTab">濁音</view>  
     <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="onTab">拗音</view> 
-    <view class="swiper-tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="onTab">清长音</view>
-    <view class="swiper-tab-item {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="onTab">浊长音</view>
-    <view class="swiper-tab-item {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="onTab">拗长音</view>
+    <view class="swiper-tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="onTab">基本長音</view>
+    <view class="swiper-tab-item {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="onTab">濁長音</view>
+    <view class="swiper-tab-item {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="onTab">拗長音</view>
+    <view class="swiper-tab-item {{currentTab==6 ? 'on' : ''}}" data-current="6" bindtap="onTab">特別音</view>
   </view>
 
   <view class='swiper-symbol'>
