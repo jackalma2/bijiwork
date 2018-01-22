@@ -30,6 +30,13 @@ Page({
     })
   },
 
+  //测试卡片
+  bindTestCard2: function () {
+    wx.navigateTo({
+      url: '../testcard2/testcard2',
+    })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

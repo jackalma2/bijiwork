@@ -7,10 +7,12 @@
   bindscrolltoupper="onLeft"
   bindscrolltolower="onRight"
   scroll-left="{{scrollLeft}}"
+  bindtouchstart="onTouchstart"
+  bindtouchend="onTouchend"
 >
   <block wx:for="{{list}}" wx:key="{{id}}">
     <view id="green" class='scroll-item'>
-      <text style='margin:250rpx;'>{{item.title}}</text>
+      <text style='margin:250rpx;'>{{item.title}} {{cardNum}} {{scrollLeft}}</text>
     </view>
   </block>
 </scroll-view>
