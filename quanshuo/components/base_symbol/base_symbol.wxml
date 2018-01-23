@@ -1,0 +1,21 @@
+<!--components/symbol/symbol.wxml-->
+<view class="container">       
+  <view class="table" wx:for="{{10}}" wx:key="id">
+      <view class="td" bindtap='openCard' >せか</view>
+      <view class="td" bindtap='openCard' >せか</view>
+      <view class="td" bindtap='openCard' >せか</view>
+      <view class="td" bindtap='openCard' >内容</view>
+      <view class="td" bindtap='openCard' >内容</view>
+  </view>
+  <!--底部平假名 片假名切换-->
+  <view class='sliderView'> 
+    <view class="sliderContent" style='flex-direction:{{flexDirection}}'>
+      <view class="slider" bindtap='moveSetBtn' >
+        <text>{{nameSet}}</text>
+      </view>
+      <view class='slider_2'>
+        <input placeholder="{{nameUnset}}" placeholder-class="input-placeholder" disabled="{{disabled}}" />
+      </view>
+    </view>   
+  </view>
+</view>
