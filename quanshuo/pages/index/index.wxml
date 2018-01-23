@@ -1,17 +1,66 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <button bindtap='bindUsersList'>查看用户列表</button>
-    <button bindtap='bindYinbiao'>五十音图</button>
-    <button bindtap='bindTestCard'>测试卡片</button>
-    <button bindtap='bindTestCard2'>测试卡片2</button>
-    <text class="user-motto">{{motto}}</text>
+<view class='container'>
+  <scroll-view scroll-x class='swiper-tab'>
+    <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="onTab">基本音</view>  
+    <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="onTab">濁音</view>  
+    <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="onTab">拗音</view> 
+    <view class="swiper-tab-item {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="onTab">基本長音</view>
+    <view class="swiper-tab-item {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="onTab">濁長音</view>
+    <view class="swiper-tab-item {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="onTab">拗長音</view>
+    <view class="swiper-tab-item {{currentTab==6 ? 'on' : ''}}" data-current="6" bindtap="onTab">特別音</view>
+  </scroll-view>
+
+  <view class='swiper-symbol'>
+    <swiper current="{{currentTab}}" 
+            indicator-dots="{{indicatorDots}}" 
+            autoplay="{{autoplay}}" 
+            interval="{{interval}}" 
+            duration="{{duration}}"
+            circular="{{circular}}"
+            bindchange="swiperChange"
+    >
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+       <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+      <swiper-item>
+        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+          <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
+        </component-tag-name>
+      </swiper-item>
+
+    </swiper>
   </view>
 </view>
