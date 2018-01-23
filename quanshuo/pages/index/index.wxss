@@ -20,12 +20,20 @@
 .swiper-tab-item{  
     font-size: 30rpx;  
     display: inline-block;   
-    color: #777777;  
-    padding-right: 35rpx;
-}  
+    color: #B7C2CA;  
+    margin-right:30rpx;
+} 
+
+.swiper-tab-item-first {
+  margin-left: 44rpx;
+}
+
+.swiper-tab-item-last {
+  margin-right: 44rpx;
+}
 /*选中的tab item*/
 .on{ 
-  color: #4E4E4E;  
+  color: #2C2D2F;  
   border-bottom: 5rpx solid #4E4E4E;
 } 
 
@@ -42,5 +50,5 @@
 
 .swiper-symbol swiper-item {
   color: #fff;
-  background-color: #575E66;  
+  background-color: #FBFBFB;  
 }
