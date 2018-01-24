@@ -1,6 +1,6 @@
 <!--components/symbol/symbol.wxml-->
 <view class="container">       
-  <view class="table" wx:for="{{hiragana}}" wx:key="id">
+  <view class="table" wx:for="{{data}}" wx:key="id">
       <view class="td" bindtap='openCard' >{{item[0]}}</view>
       <view class="td" bindtap='openCard' >{{item[1]}}</view>
       <view class="td" bindtap='openCard' >{{item[2]}}</view>
@@ -13,7 +13,7 @@
       <view class="slider" bindtap='moveSetBtn' >
         <text>{{nameSet}}</text>
       </view>
-      <view class='slider_2'>
+      <view class='slider_2' bindtap='moveSetBtn'>
         <input placeholder="{{nameUnset}}" placeholder-class="input-placeholder" disabled="{{disabled}}" />
       </view>
     </view>   

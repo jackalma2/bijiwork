@@ -9,6 +9,6 @@
     "disableScroll": true
   },
   "usingComponents": {
-    "component-tag-name": "/components/base_symbol/base_symbol"
+    "component-tag-name": "/components/jiben_symbol/jiben_symbol"
   }
 }

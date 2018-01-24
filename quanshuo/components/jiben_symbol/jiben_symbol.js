@@ -20,6 +20,7 @@ Component({
     disabled: true,//输入框不可用,
     nameSet: '平假名',
     nameUnset: '片假名',
+    data:[],
     //平假名
     hiragana: [
       [ 'あ', 'い', 'う', 'え', 'お' ],
@@ -36,7 +37,17 @@ Component({
     ],
     //片假名
     katakana: [
-
+      ['ア', 'イ', 'ウ', 'エ', 'オ'],
+      ['カ', 'キ', 'ク', 'ケ', 'コ'],
+      ['サ', 'シ', 'ス', 'セ', 'ソ'],
+      ['タ', 'チ', 'ツ', 'テ', 'ト'],
+      ['ナ', 'ニ', 'ヌ', 'ネ', 'ノ'],
+      ['ハ', 'ヒ', 'フ', 'ヘ', 'ホ'],
+      ['マ', 'ミ', 'ム', 'メ', 'モ'],
+      ['ヤ', '', 'ユ', '', 'ヨ'],
+      ['ラ', 'リ', 'ル', 'レ', 'ロ'],
+      ['ワ', '', '', '', 'ヲ'],
+      ['ン', '', '', '', 'ッ'],      
     ]
   },
 
@@ -58,6 +69,7 @@ Component({
           flexDirection: 'row-reverse',
           nameSet: '片假名',
           nameUnset: '平假名',
+          data: this.data.katakana,
         })
       } else {
         this.setData({
@@ -65,6 +77,7 @@ Component({
           flexDirection: 'row',
           nameSet: '平假名',
           nameUnset: '片假名',
+          data: this.data.hiragana,
         })
       }      
     },
@@ -72,7 +85,8 @@ Component({
 
   //组件生命周期函数，在组件布局完成后执行，此时可以获取节点信息
   ready: function() {
-   
+   this.setData({
+     data: this.data.hiragana,
+   })
   }
-
 })
