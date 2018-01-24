@@ -1,0 +1,85 @@
+/* components/jiben_chang_symbol/jiben_chang_symbol.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height:1050rpx;
+  padding-top: 40rpx;
+}
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.td {
+  padding: 30rpx;
+  text-align: center;
+  color: #5D6063;
+}
+
+/*切换按钮*/
+.sliderView {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500rpx;
+  box-sizing: border-box;
+  line-height: 70rpx;
+  border-radius: 60rpx;
+  padding-top:38rpx;
+  color: #289adc;
+}
+
+.sliderContent{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  width: 430rpx;
+  box-sizing: border-box;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 60rpx;
+  background-color: #fff;
+  color: #289adc;
+}
+ 
+.sliderContent input {
+  line-height: 70rpx;
+  height: 70rpx;
+  box-sizing: border-box;
+  width: 215rpx;
+}
+ 
+.input-placeholder {
+  text-align: center;
+  color: #289adc;
+}
+ 
+.slider {
+  width: 215rpx;
+  border-radius: 60rpx;
+  text-align: center;
+  background-color: #7f7f7f;
+  color: #fff;
+}
+
+.slider_2 {
+  width: 215rpx;
+  border-radius: 60rpx;
+  text-align: center;
+}
+
+.input-placeholder{
+  color:#7f7f7f;
+}
+
+.td {
+  font-family: 'M+ 1m';
+  font-size: 20px;
+}
