@@ -9,6 +9,12 @@
     "disableScroll": true
   },
   "usingComponents": {
-    "component-tag-name": "/components/jiben_symbol/jiben_symbol"
+    "component-tag-jiben": "/components/jiben_symbol/jiben_symbol",
+    "component-tag-jiben-chang": "/components/jiben_chang_symbol/jiben_chang_symbol",
+    "component-tag-zhuo": "/components/zhuo_symbol/zhuo_symbol",
+    "component-tag-zhuo-chang": "/components/zhuo_chang_symbol/zhuo_chang_symbol",
+    "component-tag-ao": "/components/ao_symbol/ao_symbol",
+    "component-tag-ao-chang": "/components/ao_chang_symbol/ao_chang_symbol",
+    "component-tag-tebie": "/components/tebie_symbol/tebie_symbol"
   }
 }

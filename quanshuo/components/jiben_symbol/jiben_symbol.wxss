@@ -1,5 +1,4 @@
 /* components/symbol/symbol.wxss */
-
 .container {
   display: flex;
   flex-direction: column;

@@ -20,45 +20,45 @@
     >
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-jiben inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-jiben>
       </swiper-item>
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-zhuo inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-zhuo>
       </swiper-item>
 
        <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-ao inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-ao>
       </swiper-item>
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-jiben-chang inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-jiben-chang>
       </swiper-item>
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-zhuo-chang inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-zhuo-chang>
       </swiper-item>
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-ao-chang inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-ao-chang>
       </swiper-item>
 
       <swiper-item>
-        <component-tag-name inner-text="some text" bindmyevent="onMyEvent">
+        <component-tag-tebie inner-text="some text" bindmyevent="onMyEvent">
           <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->         
-        </component-tag-name>
+        </component-tag-tebie>
       </swiper-item>
 
     </swiper>
