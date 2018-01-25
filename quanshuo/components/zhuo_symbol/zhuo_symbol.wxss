@@ -1,4 +1,7 @@
 /* components/symbol/symbol.wxss */
+/*引入 Tsukushi A Round Gothic 字体*/
+@import '/resources/typeface/tsukushi.wxss';
+@import '/resources/typeface/yugothic_medium.wxss';
 
 .container {
   display: flex;
@@ -17,6 +20,8 @@
 }
 
 .td {
+  font-family: 'YuGothic';
+  font-size: 38rpx;
   padding: 30rpx;
   text-align: center;
   color: #5D6063;
@@ -70,6 +75,12 @@
   color: #fff;
 }
 
+.slider text {
+  font-family: 'Tsukushi A Round Gothic';
+  font-size: 14;
+  font-weight: bold;
+}
+
 .slider_2 {
   width: 215rpx;
   border-radius: 60rpx;
@@ -77,10 +88,12 @@
 }
 
 .input-placeholder{
+  font-family: 'Tsukushi A Round Gothic';
+  font-size: 14;
+  font-weight: bold;
   color:#7f7f7f;
 }
 
-.td {
-  font-family: 'M+ 1m';
-  font-size: 20px;
+.input-placeholder{
+  color:#7f7f7f;
 }

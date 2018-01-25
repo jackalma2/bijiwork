@@ -18,7 +18,7 @@ Component({
     flexDirection: 'row',
     btnLeft: true, //默认切换按钮在左边
     disabled: true,//输入框不可用,
-    nameSet: '平假名',
+    nameSet: '平名',
     nameUnset: '片假名',
     data: [],
     //平假名
