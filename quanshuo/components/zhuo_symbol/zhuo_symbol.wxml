@@ -1,11 +1,13 @@
 <!--components/symbol/symbol.wxml-->
-<view class="container">       
-  <view class="table" wx:for="{{data}}" wx:key="id">
-      <view class="td" bindtap='openCard' >{{item[0]}}</view>
-      <view class="td" bindtap='openCard' >{{item[1]}}</view>
-      <view class="td" bindtap='openCard' >{{item[2]}}</view>
-      <view class="td" bindtap='openCard' >{{item[3]}}</view>
-      <view class="td" bindtap='openCard' >{{item[4]}}</view>
+<view class="container"> 
+  <view style='flex:1'>      
+    <view class="table" wx:for="{{data}}" wx:key="id">
+        <view class="td" bindtap='openCard' >{{item[0]}}</view>
+        <view class="td" bindtap='openCard' >{{item[1]}}</view>
+        <view class="td" bindtap='openCard' >{{item[2]}}</view>
+        <view class="td" bindtap='openCard' >{{item[3]}}</view>
+        <view class="td" bindtap='openCard' >{{item[4]}}</view>
+    </view>
   </view>
   <!--底部平假名 片假名切换-->
   <view class='sliderView'> 

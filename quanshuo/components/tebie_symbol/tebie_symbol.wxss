@@ -21,7 +21,7 @@
 
 .td {
   font-family: 'YuGothic';
-  font-size: 38rpx;
+  font-size: 56rpx;
   padding: 30rpx;
   text-align: center;
   color: #5D6063;
@@ -51,7 +51,7 @@
   height: 70rpx;
   line-height: 70rpx;
   border-radius: 60rpx;
-  background-color: #fff;
+  background-color: #E9ECF2;
   color: #289adc;
 }
  
@@ -64,20 +64,20 @@
  
 .input-placeholder {
   text-align: center;
-  color: #289adc;
+  color: #5D6063;
 }
  
 .slider {
   width: 215rpx;
   border-radius: 60rpx;
   text-align: center;
-  background-color: #7f7f7f;
-  color: #fff;
+  background-color: #8296C1;
+  color: #FFFFFF;
 }
 
 .slider text {
   font-family: 'Tsukushi A Round Gothic';
-  font-size: 14;
+  font-size: 28rpx;
   font-weight: bold;
 }
 
@@ -89,11 +89,11 @@
 
 .input-placeholder{
   font-family: 'Tsukushi A Round Gothic';
-  font-size: 14;
+  font-size: 28rpx;
   font-weight: bold;
-  color:#7f7f7f;
+  color:#5D6063;
 }
 
 .input-placeholder{
-  color:#7f7f7f;
+  color:#5D6063;
 }

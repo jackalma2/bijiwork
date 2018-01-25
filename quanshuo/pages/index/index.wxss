@@ -22,7 +22,7 @@
 }  
 
 .swiper-tab-item{  
-    font-size: 30rpx;  
+    font-size: 32rpx;  
     display: inline-block;   
     color: #B7C2CA;  
     margin-right:30rpx;

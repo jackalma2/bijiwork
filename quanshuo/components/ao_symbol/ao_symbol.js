@@ -18,8 +18,8 @@ Component({
     flexDirection: 'row',
     btnLeft: true, //默认切换按钮在左边
     disabled: true,//输入框不可用,
-    nameSet: '平假名',
-    nameUnset: '片假名',
+    nameSet: '平仮名',
+    nameUnset: '片仮名',
     data: [],
     //平假名
     hiragana: [
@@ -70,16 +70,16 @@ Component({
         this.setData({
           btnLeft: false,
           flexDirection: 'row-reverse',
-          nameSet: '片假名',
-          nameUnset: '平假名',
+          nameSet: '片仮名',
+          nameUnset: '平仮名',
           data: this.data.katakana,
         })
       } else {
         this.setData({
           btnLeft: true,
           flexDirection: 'row',
-          nameSet: '平假名',
-          nameUnset: '片假名',
+          nameSet: '平仮名',
+          nameUnset: '片仮名',
           data: this.data.hiragana,
         })
       }
